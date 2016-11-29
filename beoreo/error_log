@@ -1,0 +1,1 @@
+[29-Jun-2016 22:49:55 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home/bearsthe/public_html/theme/wordpress/beoreo/wp-content/themes/beoreo/index.php on line 1

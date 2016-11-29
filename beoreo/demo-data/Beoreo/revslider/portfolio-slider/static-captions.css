@@ -1,0 +1,6 @@
+@media(min-width: 1200px) {
+	.bt-portfolio-slider .rev_slider_wrapper, 
+    .bt-portfolio-slider .rev_slider_wrapper .rev_slider {
+      	min-height: 556px !important;
+    }
+}

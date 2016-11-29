@@ -1,0 +1,57 @@
+/* Reset */
+@overlay-zindex: 512;
+@overlaybg-zindex: -1;
+
+a, a:hover, a:focus, a:active, a.active {
+    .easing-animation;
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0;
+    li {
+        padding: 0;
+        margin: 0;
+    }
+	&.bt-disc {
+		list-style-type: disc;
+	}
+	&.bt-circle {
+		list-style-type: circle;
+	}
+	&.bt-square {
+		list-style-type: square;
+	}
+    &.bt-list-style1 {
+		font-size: 13px;
+		font-weight: 800;
+		letter-spacing: 0.1em;
+		color: #141414;
+		margin: 0;
+		padding: 0;
+		> li {
+			list-style: none;
+			margin-bottom: 20px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			> i {
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				text-align: center;
+				letter-spacing: -0.1em;
+				color: #ffffff;
+				background: @main-color;
+				margin-right: 20px;
+				-webkit-border-radius: 20px;
+				-moz-border-radius: 20px;
+				border-radius: 20px;
+			}
+		}
+	}
+}
